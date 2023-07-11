@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Snack 1</title>
+    <title>Palindroma</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
     integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -16,12 +16,18 @@
 <body>
 
     <header class="text-center bg-dark text-light py-4">
-        <h1 class="display-1">Snack 1 || Somma di numeri nell'Array</h1>
+        <h1 class="display-1">Palindroma</h1>
     </header>
     <main class="text-center">
         
         <div class="container">
             <div class="row text-center justify-content-center fw-bold">
+                <div class="col-3 gy-4">
+                    <input class="form-control input-text" type="text" placeholder="Palindromo?" aria-label="default input example">
+                    <button type="button" class="btn btn-primary mt-4" id="btn-control">Controlla</button>
+                </div>
+                <span id="result"></span>
+
             </div>
         </div>
         
